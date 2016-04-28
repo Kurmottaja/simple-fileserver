@@ -27,8 +27,7 @@ def upload_file():
             print filename
 
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            return redirect(url_for('uploaded_file',
-                                    filename=filename))
+            return filename
     return '''
     <!doctype html>
     <title>Upload new File</title>
