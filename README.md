@@ -1,2 +1,2 @@
-# blastly-fileserver
-Fileserver for blast.ly
+# simple-fileserver
+Simple file server implemented with Flask
